@@ -1,0 +1,123 @@
+#navMenu:checked~#sideMenu{
+transform: translateX(0%);
+}
+
+#overlay{
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+width: 830px;
+background-color: rgba(0,0,0,0.3);
+z-index: 1;
+transform: translateX(100%);
+transition: transform ease-in 0.3s;
+
+
+}
+.navCloseBtn{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #fff;
+    padding: 5px;
+    background: transparent;
+    font-size: 2.4rem;
+    cursor: pointer;
+}
+#navMenu:checked~#overlay{
+transform:translateX(0)
+}
+
+.angleIcon::after{
+    content: "";
+    position: absolute;
+    top: 28px;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+    display: block;
+    
+    /* background-color: red; */
+}
+    #chuyenphatnhanh:checked~a{
+    color:black;
+    }
+    #chuyenphatnhanh:checked~.angleIcon::after{
+        transform: translateY(-50%) rotate(0.5turn);
+    }
+      
+    .containtIcon{
+        /* background-color: red; */
+        /* opacity: 0; */
+        width: 100%;
+        height: 100%;
+        position: absolute; 
+    }
+    #chuyenphatnhanh:checked ~.subMenu1{
+    display:block;
+    }
+  
+    .subMenuLink{
+        /* background-color: red; */
+        color: black !important;
+        font-weight: 400 !important;
+        padding: 5px 0 5px 20px !important;
+        font-size: 16px;
+    }
+  
+
+  .subMenuParent{
+    display:none;
+    padding: 0 0 15px 25px;
+    font-weight: 700;
+    /* background-color: red; */
+  }
+  .subMenuParent__item{
+    /* background-color: red; */
+    padding:5px 0;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .subMenuParent__item:hover{
+  color:black;
+  }
+ 
+  .subMenuChild{
+    margin: -10px 0;
+    padding:5px 0 5px 5px;
+    font-size: 15px;
+    /* background-color: red; */
+    line-height: 16px;
+  }
+  .subMenuChild__item{
+   color:black;
+   font-weight: 300;
+    padding:2px 0;
+} 
+  
+  /* dich vu checked*/
+  
+  #dichvu:checked~.subMenuParent{
+  display:block;
+  }
+  /* gui hang di my checked*/
+  #guihangdimy:checked~.subMenuParent{
+  display:block;
+  }
+  #chuyenphatnhanh:checked~.subMenuParent{
+    display:block;
+    
+    }
+    #chuyenphatnhanh:checked~.subMenuParent{
+      color:white;
+      }
+      #dichvuCheck:checked~.subMenuParent{
+      display:block;
+      }
+  
+  

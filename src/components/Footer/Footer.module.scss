@@ -1,0 +1,137 @@
+.wrapperBottom{
+  // background: var(--yellow);
+  background-color: var(--yellow);
+  }
+  .wrapperTop{
+  background-color: #f7f5ed;
+  padding-top: 20px;
+    border-top: 2px dotted black;
+  }
+.footer{
+padding: 10px;
+// background: #000;
+// background: red;
+margin: auto;
+ .footerTop{
+  flex-wrap: wrap;
+  .list{
+  width:31%;
+  padding: 0 10px;
+  }
+//  background: yellow;
+ display: flex;  
+//  gap:20px;
+ justify-content: space-between;
+  .divided{
+    height: 3px;
+    display: block;
+    background-color: rgba(0,0,0,0.1);
+    margin: 1em 0 1em;
+    width: 100%;
+    max-width: 30px;
+  }
+  h3{
+     line-height: 1.05;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--blue);
+    
+  }
+  p{
+  margin-bottom: 20px;
+  }
+  a{
+    color:var(--green);
+    font-size: var(--fz-text);
+    // text-transform: capitalize;
+    line-height: 1.6;
+    font-weight: 400;
+    &:hover{
+    color:black;
+    }
+  }
+ 
+  @media screen and (max-width:768px) {
+    .list{
+    flex:50%;
+   
+  }
+}
+    // background: #000;
+  @media screen and (max-width:420px) {
+    .list{
+    flex:100%;
+  
+    }
+ }
+ }
+ 
+ .footerBottom{
+ .fanpage{
+ width:100%;
+ }
+ .dragonUpload{
+ width:100%;
+ }
+ .googleMap{
+ 
+ }
+ 
+//  background: var(--yellow);
+ display: flex;
+ flex-wrap: wrap;
+
+ .list{
+   width:33.33%;
+   flex:33.33%;
+   padding: 10px;
+  }
+  
+  @media screen and (max-width:900px) {
+    .list{
+    // background: blue;
+      flex:50%;
+     width:50%;
+    }
+  @media screen and (max-width:767px) {
+    .list{
+    flex:100%;
+    // background: green;
+    }
+  }  
+   .divided{
+    height: 3px;
+    display: block;
+    background-color: rgba(0,0,0,0.1);
+    margin: 1em 0 1em;
+    width: 100%;
+    max-width: 30px;
+  }
+  
+  .title{
+  color: var(--blue);
+  font-weight: 700;
+}
+  h3{
+  color: var(--red);
+  font-weight: 700;
+  margin-bottom: 10px;
+  } 
+  p{
+  margin-bottom: 1.3rem;
+  strong{
+  font-weight: bolder;
+  
+  }
+  font-size: var(--fz-text);
+  color:var(--blue);
+  font-weight:400;
+  
+  }
+ }
+}
+ 
+ 
+ 
+}
