@@ -22,9 +22,11 @@ const NavPc = () => {
               </div>
             </div>
             <div className={clsx("col l-6 m-6", styles.right)}>
-              <Link to="/">
+              <a href="https://www.facebook.com/DragonExpresssVN">
+              
                 <i class="fa-brands fa-facebook-f"></i>
-              </Link>
+              </a>
+            
               <Link to="/">
                 <i class="fa-brands fa-instagram"></i>
               </Link>

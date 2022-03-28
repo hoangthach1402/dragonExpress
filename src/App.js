@@ -14,7 +14,7 @@ import Advertising from './components/advertising/Advertising'
 import Banggia from './components/Router/Banggia/Banggia'
 import Dichvu from './components/Router/Dichvu/Dichvu'
 import NewFooter from './components/NewFooter/NewFooter'
-
+import HomeNew from './components/HomeNew/HomeNew'
 function App() {
   return (
   
@@ -25,7 +25,7 @@ function App() {
     <Banner />
     <div className={clsx(styles.page,'grid wide')}>
     <Routes>
-    <Route  path="/" element={<Home />}/>
+    <Route  path="/" element={<HomeNew />}/>
     <Route  path="/gioithieu" element={<Introduce />}/>
     <Route  path="/banggia"  element={<Banggia />}/>
     <Route  path="/dichvu"  element={<Dichvu />}/>
