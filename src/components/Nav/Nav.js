@@ -34,12 +34,12 @@ const Nav = () => {
               <Link to="/dichvu">Dịch Vụ</Link>
             </li>
             {/*gui hang di my  */}
-            <li className={clsx(styles.item)}>
+            {/* <li className={clsx(styles.item)}>
               <Link to="/guihangdimy">Giử Hàng Đi Mỹ</Link>
-            </li>
+            </li> */}
             {/* bang gia */}
             <li className={clsx(styles.item)}>
-              <Link to="/">Bảng Giá 2022</Link>
+              <Link to="/banggia">Bảng Giá 2022</Link>
             </li>
             {/* tracking */}
             <li className={clsx(styles.item)}>

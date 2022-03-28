@@ -44,7 +44,10 @@ const NavPc = () => {
         <div className={clsx('row')}>
         <div className={clsx(styles.left,'col m-2 l-2')}>
         <div>
+        <Link to="/">
+        
         <img src={logo} alt="" />
+        </Link>
         </div>
         </div>
         <div className={clsx(styles.right,'col m-10 l-10')}>
@@ -60,9 +63,7 @@ const NavPc = () => {
              <li>
                  <Link to="/dichvu">DỊCH VỤ</Link>
              </li>
-             <li>
-                 <Link to="/guihangdimy">GỬI HÀNG ĐI MỸ </Link>
-             </li>
+           
              <li>
                  <Link to="/banggia">BẢNG GIÁ 2022</Link>
              </li>

@@ -13,6 +13,8 @@ import NotFound from './components/Router/NotFound/NotFound'
 import Advertising from './components/advertising/Advertising'
 import Banggia from './components/Router/Banggia/Banggia'
 import Dichvu from './components/Router/Dichvu/Dichvu'
+import NewFooter from './components/NewFooter/NewFooter'
+
 function App() {
   return (
   
@@ -31,7 +33,8 @@ function App() {
     <Route path="*" element={<NotFound />} />
     </Routes>
     </div>
-    <Footer/>
+    {/* <Footer/> */}
+    <NewFooter />
     <Advertising /> 
    
     

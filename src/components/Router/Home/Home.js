@@ -1,8 +1,11 @@
 import React from 'react'
 import clsx from 'clsx'
 import styles from './Home.module.scss'
-
+import  './home.css'
 const Home = () => {
+  
+  
+  
   return (
     <div className={styles.home}>
     
@@ -17,76 +20,25 @@ const Home = () => {
     {/* <p><strong>Dragon Express</strong>&nbsp;mong muốn đem đến cho Quý khách hàng một dịch vụ&nbsp;<strong>chuyển phát nhanh quốc tế</strong>&nbsp;tốt nhất với thời gian vận chuyển nhanh nhất. Chúng tôi đang không ngừng nỗ lực để trở thành công ty chuyển phát nhanh hàng đầu tại Việt Nam.</p> */}
     </div>
     </div>
+  
+    {/* <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+      <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img src="https://source.unsplash.com/78A265wPiO4" alt="Nature Image #1" />
+        </li>
+        <li class="slide">
+          <img src="https://source.unsplash.com/eOpewngf68w" alt="Nature Image #2" />
+        </li>
+        <li class="slide">
+          <img src="https://source.unsplash.com/ndN00KmbJ1c" alt="Nature Image #3" />
+        </li>
+      </ul>
+    </div> */}
+ 
     
-    <div className={styles.middle}>
-    <div className={styles.box}>
-    <div className={styles.img}>
-    <img src="https://dragonexpress.com.vn/wp-content/uploads/2021/06/gui-hang-di-my.jpg" alt="" />
-    <div className={styles.title}>
-    <span className={styles.text}>
-    
-    Gui Hang Di My
-    </span>
-    </div>
-    </div>
-    </div>
-    
-    <div className={styles.box}>
-    <div className={styles.img}>
-    <img src="https://dragonexpress.com.vn/wp-content/uploads/2021/06/gui-hang-di-my.jpg" alt="" />
-    <div className={styles.title}>
-    <span className={styles.text}>
-    
-    Gui Hang Di My
-    </span>
-    </div>
-    </div>
-    </div>
-    
-    <div className={styles.box}>
-    <div className={styles.img}>
-    <img src="https://dragonexpress.com.vn/wp-content/uploads/2021/06/gui-hang-di-my.jpg" alt="" />
-    <div className={styles.title}>
-    <span className={styles.text}>
-    
-    Gui Hang Di Uc
-    </span>
-    </div>
-    </div>
-    </div>
-    
-    <div className={styles.box}>
-    <div className={styles.img}>
-    <img src="https://dragonexpress.com.vn/wp-content/uploads/2021/06/gui-hang-di-my.jpg" alt="" />
-    <div className={styles.title}>
-    <span className={styles.text}>
-    Gui Hang Di Canada
-    </span>
-    </div>
-    </div>
-    </div>
-    <div className={styles.box}>
-    <div className={styles.img}>
-    <img src="https://dragonexpress.com.vn/wp-content/uploads/2021/06/gui-hang-di-my.jpg" alt="" />
-    <div className={styles.title}>
-    <span className={styles.text}>
-    Gui Hang Di My
-    </span>
-    </div>
-    </div>
-    </div>
-    <div className={styles.box}>
-    <div className={styles.img}>
-    <img src="https://dragonexpress.com.vn/wp-content/uploads/2021/06/gui-hang-di-my.jpg" alt="" />
-    <div className={styles.title}>
-    <span className={styles.text}>
-    Gui Hang Di My
-    </span>
-    </div>
-    </div>
-    </div>
-    
-    </div>
+  
     
     <div className={styles.bottom}>
     {/* box1 */}
