@@ -49,7 +49,7 @@ const Home = () => {
     <div className={styles.title}>
     <span className={styles.text}>
     
-    Gui Hang Di My
+    Gui Hang Di Uc
     </span>
     </div>
     </div>
@@ -60,7 +60,7 @@ const Home = () => {
     <img src="https://dragonexpress.com.vn/wp-content/uploads/2021/06/gui-hang-di-my.jpg" alt="" />
     <div className={styles.title}>
     <span className={styles.text}>
-    Gui Hang Di My
+    Gui Hang Di Canada
     </span>
     </div>
     </div>

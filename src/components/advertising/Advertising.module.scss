@@ -1,0 +1,32 @@
+.advertising{
+position:sticky;
+background: red;
+padding: 10px;
+width:220px;
+height:70px;
+bottom:100px;
+left: 80%;
+opacity: .8;
+display: flex;
+border-radius: 10px;
+ text-align: center;
+ align-items: center;
+ .title{
+ color: yellow;
+ font-size: 20px;
+ font-size: 700;
+ cursor: pointer;
+ }
+ &:hover{
+ background: white;
+ color: red;
+ }
+}
+a{
+text-decoration: none;
+color: inherit;
+&:hover{
+color: red;
+}
+}
+// z-index: 999;

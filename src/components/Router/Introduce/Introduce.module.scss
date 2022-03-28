@@ -1,0 +1,57 @@
+.introduce{
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+
+.intro{
+text-align: center;
+.title{
+font-size: 22px;
+color: red;
+}
+p{
+font-style: italic;
+}
+}
+}
+
+.aboutus{
+// display: flex;
+// background: #000;
+.title{
+text-align: center;
+font-weight: 700;
+h3{
+color: red;
+font-size: 26px;
+}
+h1{
+font-size: 22px;
+color: red;
+}
+}
+.content{
+display: flex;
+flex-wrap: wrap;
+padding: 5px;
+.item{
+border-bottom: 1px solid black;
+border-right: 1px solid black;
+display: flex;
+padding: 5px;
+// i{
+// // width:30%;
+// }
+.checked{
+width: 20%;
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+}
+flex:47%;
+gap: 10px;
+background: rgb(207, 207, 207);
+}
+}
+}

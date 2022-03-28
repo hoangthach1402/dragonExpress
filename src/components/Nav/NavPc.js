@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./NavPc.css";
 import clsx from "clsx";
-
+import logo from '../../Images/Nav/logo.png'
 import styles from "./NavPc.module.scss";
 const NavPc = () => {
   return (
@@ -44,7 +44,7 @@ const NavPc = () => {
         <div className={clsx('row')}>
         <div className={clsx(styles.left,'col m-2 l-2')}>
         <div>
-        <img src="../../Images/Nav/LOGODRAGON.png" alt="" />
+        <img src={logo} alt="" />
         </div>
         </div>
         <div className={clsx(styles.right,'col m-10 l-10')}>
@@ -52,9 +52,7 @@ const NavPc = () => {
              <li>
                  <Link to="/">TRANG CHỦ </Link>
              </li>
-             <li>
-                 <Link to="/chuyenphatnhanh">Chuyển Phát Nhanh</Link>
-             </li>
+            
              <li>
              <Link to="/gioithieu">GIỚI THIỆU </Link>
             
@@ -66,7 +64,7 @@ const NavPc = () => {
                  <Link to="/guihangdimy">GỬI HÀNG ĐI MỸ </Link>
              </li>
              <li>
-                 <Link to="/banggia">BẢNG GIÁ </Link>
+                 <Link to="/banggia">BẢNG GIÁ 2022</Link>
              </li>
              <li>
                  <Link to="/tracking">TRACKING </Link>
