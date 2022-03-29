@@ -8,15 +8,15 @@ const NewFooter = () => {
     <div className={styles.newFooter}>
     <div className={styles.item}>
     <div className={styles.title}>
-    thong tin lien he
+    THÔNG TIN LIÊN HÊ
     </div>
     <div className={styles.description}>
     <h3 className={styles.heading}>Van tai quoc te Dragon247-Express</h3>
-   <p><strong>Dia chi</strong> 86/12 Phổ Quang, Phường 2, Tân Bình, HCM</p> 
-    <p><strong>Hotline:</strong> 0987 499 146 </p>
-    <p><strong>Lien he:</strong>  0987 499 146 (Mr. Tuấn Nguyễn)</p>
-    <p><strong>Email: </strong> tuannguyen@gmail.com.vn</p>
-    <p><strong>Website</strong>: https://dragon247express.com/ </p>
+   <p><strong>Địa chỉ</strong> 86/12 Phổ Quang, Phường 2, Tân Bình, HCM</p> 
+    <p><strong>Hotline:</strong><a href="tel:0987499146"> 0987 499 146 </a> </p>
+    <p><strong>Lien he:</strong><a href="tel:0987499146">0987 499 146 (Mr. Tuấn Nguyễn)</a>  </p>
+    <p><strong>Email: </strong><a href="tuannguyen@gmail.com.vn"></a> </p>
+    <p><strong>Website</strong>: <a href="https://dragon247express.com/"></a>  </p>
     </div>
     </div>
     
