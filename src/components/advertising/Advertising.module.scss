@@ -1,32 +1,10 @@
-.advertising{
-position:sticky;
-background: rgb(0,103,254);
-padding: 10px;
-width:160px;
-height:65px;
-bottom:30px;
-left: 85%;
-opacity: .8;
+.advertising{z-index: 9999;
 display: flex;
-border-radius: 10px;
- text-align: center;
- align-items: center;
- .title{
- color: white;
- font-size: 20px;
- font-size: 700;
- cursor: pointer;
- }
-//  &:hover{
-//  background: rgb(248, 53, 53);
-//  color: yellow;
-//  }
+flex-direction: column;
+position:fixed;
+gap: 10px;
+// left:80%;
+right:0%;
+bottom:100px;
 }
-a{
-text-decoration: none;
-color: inherit;
-&:hover{
-// color: yellow;
-}
-}
-// z-index: 999;
+
