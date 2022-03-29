@@ -33,11 +33,12 @@ color:red;
 
 }
 .bangGiaBtn{
-    background-color: #cc0000;
+    background-color: var(--blue);
     color:#fff;
-    padding:5px 11.2px;
+    padding:7px 11.2px;
     border: none;
     font-size: 1em;
+    border-radius: 5px;
   //  &:hover{
   //  color: white !important;
   //  }

@@ -181,8 +181,10 @@
   display: flex;
   flex-wrap: wrap;
   .left{
+  padding-left: 15px;
   flex:55%;
   .title{
+  padding-left: 20px;
   font-size: 25px;
   
   color: var(--blue);

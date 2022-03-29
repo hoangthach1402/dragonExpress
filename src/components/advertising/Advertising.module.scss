@@ -1,32 +1,32 @@
 .advertising{
 position:sticky;
-background: red;
+background: rgb(0,103,254);
 padding: 10px;
-width:220px;
-height:70px;
-bottom:100px;
-left: 80%;
+width:160px;
+height:65px;
+bottom:30px;
+left: 85%;
 opacity: .8;
 display: flex;
 border-radius: 10px;
  text-align: center;
  align-items: center;
  .title{
- color: yellow;
+ color: white;
  font-size: 20px;
  font-size: 700;
  cursor: pointer;
  }
- &:hover{
- background: white;
- color: red;
- }
+//  &:hover{
+//  background: rgb(248, 53, 53);
+//  color: yellow;
+//  }
 }
 a{
 text-decoration: none;
 color: inherit;
 &:hover{
-color: red;
+// color: yellow;
 }
 }
 // z-index: 999;

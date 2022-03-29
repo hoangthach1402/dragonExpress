@@ -4,7 +4,7 @@ import styles from './Dichvu.module.scss'
 const Dichvu = () => {
   return (
     <div className={styles.dichvu}>
-    <div className={styles.title}><h1>Dich vu</h1>
+    <div className={styles.title}><h1>Dịch Vụ</h1>
   
     <p>Cung cấp giải pháp gửi hàng đi nước ngoài với những ưu đãi và cước phí cạnh tranh nhất trên thị trường logistics hiện nay.</p>
     </div>

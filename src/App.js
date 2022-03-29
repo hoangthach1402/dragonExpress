@@ -15,6 +15,7 @@ import Banggia from './components/Router/Banggia/Banggia'
 import Dichvu from './components/Router/Dichvu/Dichvu'
 import NewFooter from './components/NewFooter/NewFooter'
 import HomeNew from './components/HomeNew/HomeNew'
+import LienHe from './components/Router/LienHe/LienHe' 
 function App() {
   return (
   
@@ -29,6 +30,7 @@ function App() {
     <Route  path="/gioithieu" element={<Introduce />}/>
     <Route  path="/banggia"  element={<Banggia />}/>
     <Route  path="/dichvu"  element={<Dichvu />}/>
+    <Route  path="/contact"  element={<LienHe />}/>
     
     <Route path="*" element={<NotFound />} />
     </Routes>
