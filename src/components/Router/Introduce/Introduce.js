@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../../Images/Nav/logo.png";
 import styles from './Introduce.module.scss'
+import Galery from '../../Utils/Galery/Galery'
 const Introduce = () => {
   return (
     <div className={styles.introduce}>
@@ -56,8 +57,8 @@ Lời đầu tiên, Dragon247-Express xin được gửi lời chào, lời chú
     </div>
     
     </div>
-    
     </div>
+    <Galery />
         
     </div>
   );

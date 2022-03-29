@@ -1,8 +1,16 @@
 .nav{
-shadow
+// shadow
 .logoContainer{
 display:flex;
 justify-content: center;
+align-items: center;
+// background: red;
+padding-top: 5px;
+.logo{
+
+padding-bottom: 0;
+// background: green;
+}
 }
 --height: 70px;
 height:var(--height);

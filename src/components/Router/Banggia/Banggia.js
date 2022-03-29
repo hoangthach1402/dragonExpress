@@ -12,7 +12,8 @@ const Banggia = () => {
       <div className={styles.note}>
         <h2>Hotline hỗ trợ: 
         <br />
-        0987 499 146 (Viber, Zalo, WhatsApp)</h2>
+        <a href="tel:0987499146"> 0987 499 146 (Viber, Zalo, WhatsApp)</a>
+       </h2>
       
       </div>
     </div>

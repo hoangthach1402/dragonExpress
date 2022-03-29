@@ -75,9 +75,9 @@ const NavPc = () => {
              <li>
                  <Link to="/contact">LIÊN HỆ</Link>
              </li>
-             <li>
+             {/* <li>
              <i className={clsx('fa-solid fa-magnifying-glass',styles.searchIcon)}></i>
-             </li>
+             </li> */}
         
          </ul>
         </div>

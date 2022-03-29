@@ -5,8 +5,12 @@ const NotFound = () => {
   return (
     <div className={styles.notFound}>
         <div className={styles.heading}>
-        
-        404 NotFound 
+  
+        Page Không tồn tại .
+        <br />
+        Cảm ơn bạn đã ghé thăm! 
+        <br />
+        Chúc bạn 1 ngày tốt lành !^^
         </div>
         </div>
   )

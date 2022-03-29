@@ -1,4 +1,8 @@
+/* @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 
+body{
+font-family: "Montserrat", Arial, sans-serif;
+} */
  :root{
  --red:#cc0000;
  --blue:#000080;
@@ -9,6 +13,7 @@
   
  }
  a{
+ font-family: inherit;
  text-decoration: none;
  display: inline-block;
  }

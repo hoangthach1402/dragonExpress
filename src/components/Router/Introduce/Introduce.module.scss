@@ -44,7 +44,10 @@ padding: 5px;
 // // width:30%;
 // }
 .checked{
-width: 20%;
+display: flex;
+justify-content:center;
+align-items: center;
+width: 24%;
 font-size: 30px;
 font-weight: 700;
 text-align: center;
@@ -52,6 +55,15 @@ text-align: center;
 flex:47%;
 gap: 10px;
 background: rgb(207, 207, 207);
+}
+@media screen  and (max-width: 767px){
+    .item{
+    flex:90%;
+    .checked{
+    // margin-right: auto;
+    // margin-left: auto;
+    }
+    }
 }
 }
 }
