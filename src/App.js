@@ -1,5 +1,6 @@
-
-import {Routes,Route,Link} from 'react-router-dom'
+import React,{useEffect} from 'react'
+import {Routes,Route,Link,useNavigate } from 'react-router-dom'
+// import { useHistory } from 'react-router-dom'
 import clsx from 'clsx'
 import styles from './App.module.scss'
 import GlobalStyle from './components/GlobalStyles/GlobalStyle'
@@ -16,7 +17,18 @@ import Dichvu from './components/Router/Dichvu/Dichvu'
 import NewFooter from './components/NewFooter/NewFooter'
 import HomeNew from './components/HomeNew/HomeNew'
 import LienHe from './components/Router/LienHe/LienHe' 
+import Backtotop from './components/BacktoTop/Backtotop'
+import $ from 'jquery'
 function App() {
+   
+  const history = useNavigate() 
+
+  useEffect(() => {
+    console.log('change')
+    
+    $("html, body").animate({ scrollTop: 230 }, "300");
+  },[history]) 
+   
   return (
   
     
@@ -37,6 +49,7 @@ function App() {
     </div>
     {/* <Footer/> */}
     <NewFooter />
+    <Backtotop />
     <Advertising /> 
    
     

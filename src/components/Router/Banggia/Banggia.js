@@ -5,7 +5,7 @@ import BanggiaImg from '../../../Images/Banggia.jpg'
 const Banggia = () => {
   return (
     <div className={styles.banggia}>
-      <h1 className={styles.title}>Bảng giá gửi hàng đi MỸ, ÚC, CANADA 2022 .</h1>    
+      <h1 className={styles.title}>Bảng giá gửi hàng đi MỸ, CANADA 2022 </h1>    
       <div className={styles.banggiacontainer}>
       <img src={BanggiaImg} alt="" />
       </div>
