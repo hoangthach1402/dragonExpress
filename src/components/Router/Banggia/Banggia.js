@@ -9,6 +9,11 @@ const Banggia = () => {
       <div className={styles.banggiacontainer}>
       <img src={BanggiaImg} alt="" />
       </div>
+      <h1 className={styles.title}>Bảng giá gửi hàng đi UC 2022 </h1>    
+      
+      <div className={styles.banggiacontainer}>
+      <img src={BanggiaImg} alt="" />
+      </div>
       <div className={styles.note}>
         <h2>Hotline hỗ trợ: 
         <br />

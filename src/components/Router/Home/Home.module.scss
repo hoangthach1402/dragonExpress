@@ -15,7 +15,7 @@
     flex:50%;
     width: 50%;
     h1{
-    color: var(--red);
+    // color: var(--blue);
     font-size: 24px;
     font-weight: 700;
     // font-size: var(--fz-title);
@@ -75,7 +75,7 @@ top: 75%;
 left: 50%;
 transform: translateX(-50%);
 .text{
-    text-shadow: 2px 2px #FF0000;
+    text-shadow: 2px 2px var(--blue);
 
 }
 }

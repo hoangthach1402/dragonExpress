@@ -3,7 +3,7 @@
 // background: gray;
   margin-top: 25px;
   .homeNewIntro {
-    // background: red;
+    // background: blue;
   
     flex-wrap: wrap;
     gap: 10px;
@@ -16,7 +16,7 @@
       flex: 45%;
       .title {
         font-size: 25px;
-        color: var(--red);
+        color: var(--blue);
         font-weight: 700;
       }
       .description {
@@ -59,7 +59,7 @@
     .title{
     font-size: 30px;
     font-weight: 700;
-    color: var(--red);
+    color: var(--blue);
     
     }
     .description{
@@ -71,11 +71,17 @@
     }
   }
   
-  
+  a{
+  text-decoration: none;
+  color: var(--blue);
+  // &:hover{
+  // color: inherit;
+  // }
+  }
   
   .thanhtich{
   width:100%;
-  // background: red;
+  // background: blue;
   display: flex;
   flex-wrap: wrap;
   justify-content:center;
@@ -116,12 +122,12 @@
   margin-bottom: 20px;
   border:4px dotted var(--blue);
   padding: 35px;
-  // background: red;
+  // background: blue;
   .heading{
   text-align: center;
   font-weight: 700;
   // // font-size: 700px;
-  color: var(--red);
+  color: var(--blue);
   font-size: 35px;
   // font-weight: 700;
   }
@@ -198,23 +204,26 @@ flex:20%;
 display: flex;
 align-items: center;
 justify-content: center;
-// background: red;
+// background: blue;
 // background: rgb(206, 206, 206);
 .btn{
 background: rgb(209, 207, 207);
 border:none;
 font-size: 20px;
 font-weight: 700;
-color: var(--red);
+color: var(--blue);
 padding: 10px 100px;
 &:hover{
 color: white;
-background: var(--red);
+background: var(--blue);
 cursor: pointer;
+a{
+color: white;
+}
 }
 a{
 &:hover{
-color: white;
+color: inherit;
 }
 }
 }

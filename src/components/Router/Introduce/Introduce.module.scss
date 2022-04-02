@@ -8,7 +8,7 @@ align-items: center;
 text-align: center;
 .title{
 font-size: 22px;
-color: red;
+color: var(--blue);
 }
 p{
 font-style: italic;
@@ -23,12 +23,12 @@ font-style: italic;
 text-align: center;
 font-weight: 700;
 h3{
-color: red;
+color: var(--blue);
 font-size: 26px;
 }
 h1{
 font-size: 22px;
-color: red;
+color: var(--blue);
 }
 }
 .content{

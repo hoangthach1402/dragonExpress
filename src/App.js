@@ -7,7 +7,7 @@ import GlobalStyle from './components/GlobalStyles/GlobalStyle'
 import Nav from './components/Nav/Nav'
 import NavPc from './components/Nav/NavPc';
 import Banner from './components/Banner/Banner' 
-import Footer from './components/Footer/Footer'
+// import Footer from './components/Footer/Footer'
 import Home from './components/Router/Home/Home';
 import Introduce from './components/Router/Introduce/Introduce'
 import NotFound from './components/Router/NotFound/NotFound'
@@ -26,7 +26,7 @@ function App() {
   useEffect(() => {
     console.log('change')
     
-    $("html, body").animate({ scrollTop: 230 }, "300");
+    $("html, body").animate({ scrollTop: 200 }, "300");
   },[history]) 
    
   return (

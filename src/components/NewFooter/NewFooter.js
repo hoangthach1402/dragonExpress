@@ -11,12 +11,12 @@ const NewFooter = () => {
     THÔNG TIN LIÊN HÊ
     </div>
     <div className={styles.description}>
-    <h3 className={styles.heading}>Van tai quoc te Dragon247-Express</h3>
+    <h3 className={styles.heading}>VẬN TẢI QUỐC TẾ DRAGON247EXPRESS</h3>
    <p><strong>Địa chỉ</strong> 86/12 Phổ Quang, Phường 2, Tân Bình, HCM</p> 
-    <p><strong>Hotline:</strong><a href="tel:0987499146"> 0987 499 146 </a> </p>
-    <p><strong>Lien he:</strong><a href="tel:0987499146">0987 499 146 (Mr. Tuấn Nguyễn)</a>  </p>
-    <p><strong>Email: </strong><a href="tuannguyen@gmail.com.vn"></a> </p>
-    <p><strong>Website</strong>: <a href="https://dragon247express.com/"></a>  </p>
+    <p><strong>Hotline :</strong><a href="tel:0987499146"> 0987 499 146 </a> </p>
+    <p><strong>Liên Hệ :</strong><a href="tel:0987499146">0987 499 146 (Mr. Tuấn Nguyễn)</a>  </p>
+    <p><strong>Email: </strong><a href="tuannguyen@gmail.com.vn">tuannguyen@gmail.com</a></p>
+    <p><strong>Website</strong>: <a href="https://dragon247express.com/">dragon247express.com</a>  </p>
     </div>
     </div>
     
@@ -40,13 +40,13 @@ const NewFooter = () => {
     
     <div className={styles.item}>
     <div className={styles.title}>
-    CHINH SACH
+    Chính Sách
     </div> 
     <div className={styles.description}>
     
-    <h3>Chinh sach giao nhan</h3>
-    <p><Link to="/chinhsachdenbu">Chinh sach den bu</Link></p>
-    <p><Link to='/chinhsachthanhtoan'>Chinh sach thanh toan</Link></p>
+    <h3>Chính Sách Giao Nhận</h3>
+    <p><Link to="/chinhsachdenbu">Chính Sách Đền Bù</Link></p>
+    <p><Link to='/chinhsachthanhtoan'>Chính Sách Thanh Toán</Link></p>
     </div>
     </div>
    
