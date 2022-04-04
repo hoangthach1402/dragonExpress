@@ -2,6 +2,7 @@ import React from 'react'
 import clsx from 'clsx'
 import styles from './Banggia.module.scss'
 import BanggiaImg from '../../../Images/Banggia.jpg'
+import BangGiaUc from '../../../Images/BanggiaUc.jpg'
 const Banggia = () => {
   return (
     <div className={styles.banggia}>
@@ -12,7 +13,7 @@ const Banggia = () => {
       <h1 className={styles.title}>Bảng giá gửi hàng đi UC 2022 </h1>    
       
       <div className={styles.banggiacontainer}>
-      <img src={BanggiaImg} alt="" />
+      <img src={BangGiaUc} alt="" />
       </div>
       <div className={styles.note}>
         <h2>Hotline hỗ trợ: 
