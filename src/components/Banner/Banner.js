@@ -1,7 +1,7 @@
 import React from 'react'
 import clsx from 'clsx'
 import styles from './Banner.module.scss'
-import banner from '../../Images/banner.png'
+import banner from '../../Images/banner.jpg'
 const Banner = () => {
   return (
     <div className={styles.banner}>
